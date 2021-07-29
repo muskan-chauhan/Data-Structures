@@ -62,7 +62,7 @@ int main()
   cout<<"Give x, y and z components of acceleration: ";
   cin>>(mSim.acc).x>>(msim.acc).y>>(mSim.acc).z;
   cout<<"Give x, y and z components of initial position: ";
-  cin>>(mSim.initPos).x>>(mSim.acc).y>>(mSim.acc).z;
+  cin>>(mSim.initPos).x>>(mSim.initPos).y>>(mSim.initPos).z;
   cout<<"Give total simulation time: ";
   cin>>totalT;
   cout<<"Give simulation time granularity: ";
